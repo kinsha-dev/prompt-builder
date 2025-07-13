@@ -1,0 +1,1 @@
+Compose a poem about {{subject}}. The poem should be in the style of {{poet}}.

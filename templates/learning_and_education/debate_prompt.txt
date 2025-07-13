@@ -1,0 +1,1 @@
+Create a debate prompt on the topic of {{debate_topic}}.

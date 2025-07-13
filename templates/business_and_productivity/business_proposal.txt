@@ -1,0 +1,1 @@
+Write a business proposal to {{recipient}} for a project to {{project_description}}.

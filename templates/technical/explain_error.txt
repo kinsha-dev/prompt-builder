@@ -1,0 +1,5 @@
+Explain the following error message and suggest a solution:
+
+```
+{{error_message}}
+```

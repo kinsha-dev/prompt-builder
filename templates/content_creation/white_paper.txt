@@ -1,0 +1,1 @@
+Write a white paper on the topic of {{topic}}. The white paper should be well-researched and provide valuable insights for {{audience}}.

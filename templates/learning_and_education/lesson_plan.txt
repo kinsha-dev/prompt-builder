@@ -1,0 +1,1 @@
+Create a lesson plan for a class on {{subject}}. The lesson should be for {{grade_level}} students and should last for {{duration}} minutes.

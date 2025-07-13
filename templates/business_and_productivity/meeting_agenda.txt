@@ -1,0 +1,1 @@
+Generate a meeting agenda for a meeting about {{topic}}. The meeting will be {{duration}} minutes long and will include the following attendees: {{attendees}}.

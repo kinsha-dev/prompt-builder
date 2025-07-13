@@ -1,0 +1,5 @@
+Refactor the following code to improve its readability and efficiency:
+
+```
+{{code_to_refactor}}
+```

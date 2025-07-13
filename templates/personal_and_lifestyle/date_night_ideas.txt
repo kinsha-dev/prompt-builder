@@ -1,0 +1,1 @@
+Generate a list of creative date night ideas for a couple who enjoys {{interests}}.

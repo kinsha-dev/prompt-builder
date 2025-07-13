@@ -1,0 +1,1 @@
+Write a dialogue between two historical figures, {{figure_1}} and {{figure_2}}, discussing {{topic}}.

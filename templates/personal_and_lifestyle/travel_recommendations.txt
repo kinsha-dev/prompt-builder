@@ -1,0 +1,1 @@
+Generate a list of travel recommendations for a trip to {{destination}}. The trip will be for {{duration}} days and the traveler is interested in {{interests}}.

@@ -1,0 +1,1 @@
+Generate a creative brief for a new advertising campaign for {{product_or_brand}}.

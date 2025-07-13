@@ -1,0 +1,1 @@
+Write a newsletter article about the latest trends in {{industry}}.

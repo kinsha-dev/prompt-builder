@@ -1,0 +1,1 @@
+Write a product description for a new {{product_name}}. The description should highlight its key features and benefits.

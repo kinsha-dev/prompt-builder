@@ -1,0 +1,1 @@
+Create a cleaning schedule for a {{number_of_bedrooms}} bedroom house.

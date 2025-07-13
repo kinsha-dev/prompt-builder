@@ -1,0 +1,1 @@
+Create a study guide for an upcoming exam on {{subject}}. The study guide should cover the key concepts and provide practice questions.

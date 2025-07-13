@@ -1,0 +1,1 @@
+Create a marketing email to announce a {{event_or_product}}. The email should be sent to {{audience}} and should have a clear call to action.

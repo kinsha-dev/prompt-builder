@@ -1,0 +1,1 @@
+Explain the difference between {{term_1}} and {{term_2}} in the context of {{domain}}.

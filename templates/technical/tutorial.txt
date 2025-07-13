@@ -1,0 +1,1 @@
+Write a tutorial on how to use {{technology_or_tool}}. The tutorial should be aimed at {{audience}} and include step-by-step instructions.

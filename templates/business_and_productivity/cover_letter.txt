@@ -1,0 +1,1 @@
+Write a cover letter for a {{role}} position at {{company}}.

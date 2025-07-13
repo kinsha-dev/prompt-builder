@@ -1,0 +1,1 @@
+Create a series of 5 tweets about {{topic}}. The tweets should be engaging and encourage conversation.

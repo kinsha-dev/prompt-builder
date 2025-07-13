@@ -1,0 +1,1 @@
+Generate a list of potential use cases for {{technology}}.

@@ -1,0 +1,1 @@
+Generate a data model for a {{application_description}}.

@@ -1,0 +1,1 @@
+Write a case study about how {{company}} successfully used {{product_or_service}} to achieve {{result}}.

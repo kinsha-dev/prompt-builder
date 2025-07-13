@@ -1,0 +1,1 @@
+Write a speech for a {{event}} (e.g., wedding, graduation).

@@ -1,0 +1,1 @@
+Write a blog post about {{topic}}. The tone should be {{tone}}, and the target audience is {{audience}}. The blog post should be approximately {{length}} words long.

@@ -1,0 +1,1 @@
+Translate the following phrase from {{source_language}} to {{target_language}}: '{{phrase_to_translate}}'

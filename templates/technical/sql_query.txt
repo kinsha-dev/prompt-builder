@@ -1,0 +1,3 @@
+Write a SQL query to retrieve {{data_description}} from a database with the following schema:
+
+{{database_schema}}

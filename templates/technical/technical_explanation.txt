@@ -1,0 +1,1 @@
+Explain the technical concept of {{concept}} to a {{level}} audience. Use an analogy to help explain it. The explanation should be clear and concise.

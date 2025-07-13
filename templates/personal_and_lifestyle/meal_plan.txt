@@ -1,0 +1,1 @@
+Create a meal plan for a {{diet_type}} diet. The plan should be for {{number_of_days}} days and should include breakfast, lunch, and dinner.

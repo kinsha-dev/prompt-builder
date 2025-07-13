@@ -1,0 +1,1 @@
+Generate a workout plan for someone who wants to achieve {{fitness_goal}}. The plan should be for {{duration}} weeks and should include exercises for {{days_per_week}} days per week.

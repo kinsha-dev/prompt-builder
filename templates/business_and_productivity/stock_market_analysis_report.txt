@@ -1,0 +1,12 @@
+Generate a detailed stock analysis report for NVIDIA (NVDIA).
+
+The analysis should focus on a 5-year investment perspective.
+
+Key areas to cover:
+- A summary of the company's business model and market position.
+- An evaluation of the following key metrics: revenue growth.
+- An analysis of the competitive landscape, specifically mentioning INTL, AMD.
+- A review of recent news and its potential impact on the stock price.
+- An assessment of the primary risks and opportunities.
+
+The final report should be written in a objective tone for an audience of retail.

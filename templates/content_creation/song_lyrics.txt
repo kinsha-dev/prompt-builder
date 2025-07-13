@@ -1,0 +1,1 @@
+Write the lyrics for a song about {{theme}}. The song should have a {{mood}} mood and be in the {{genre}} genre.

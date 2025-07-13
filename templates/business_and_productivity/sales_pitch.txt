@@ -1,0 +1,1 @@
+Write a sales pitch for a {{product_or_service}} to a potential customer who is {{customer_description}}.

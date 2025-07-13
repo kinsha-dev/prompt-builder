@@ -1,0 +1,1 @@
+Write a short biography of {{historical_figure}}.

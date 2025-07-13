@@ -1,0 +1,1 @@
+Generate a list of negotiation strategies for a situation where you want to {{negotiation_goal}}.

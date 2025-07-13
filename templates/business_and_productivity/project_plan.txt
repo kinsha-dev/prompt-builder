@@ -1,0 +1,1 @@
+Create a project plan for a project to {{project_goal}}. The project should be completed by {{deadline}} and has the following budget: {{budget}}.

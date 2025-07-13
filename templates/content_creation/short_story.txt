@@ -1,0 +1,1 @@
+Write a short story in the {{genre}} genre. The story should be about {{character_description}} who must overcome {{challenge}}.

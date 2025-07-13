@@ -1,0 +1,1 @@
+Write a job description for a {{role}} position. The job description should include the responsibilities, qualifications, and benefits.

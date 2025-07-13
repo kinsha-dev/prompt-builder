@@ -1,0 +1,1 @@
+Write a command-line script to automate the following task: {{task_to_automate}}.

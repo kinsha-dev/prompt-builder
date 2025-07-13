@@ -1,0 +1,1 @@
+Write a press release for {{company}} about their recent {{announcement}}.

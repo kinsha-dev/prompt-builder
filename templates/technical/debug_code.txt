@@ -1,0 +1,5 @@
+Debug the following code in {{language}} and explain the fix:
+
+```
+{{code_block}}
+```

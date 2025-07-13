@@ -1,0 +1,1 @@
+Create a social media post to promote a new {{product_or_service}}. The post should be for {{platform}} (e.g., Twitter, Instagram, Facebook) and should include a call to action.

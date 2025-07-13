@@ -1,0 +1,1 @@
+Write a script for a YouTube video about {{topic}}. The video should be {{duration}} minutes long and have a {{style}} style (e.g., documentary, comedic, tutorial).

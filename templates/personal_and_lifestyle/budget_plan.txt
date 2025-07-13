@@ -1,0 +1,1 @@
+Create a budget for someone who wants to save {{amount}} per month. Their monthly income is {{income}} and their fixed expenses are {{expenses}}.

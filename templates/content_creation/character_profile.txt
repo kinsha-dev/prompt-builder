@@ -1,0 +1,1 @@
+Create a character profile for a fictional character named {{name}}. The profile should include their backstory, personality traits, and motivations.
