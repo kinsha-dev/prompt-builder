@@ -6,7 +6,8 @@
   "scripts": {
     "fetch-cities": "node scripts/fetch-ksa-cities.js",
     "fetch-cities:cities-only": "node scripts/fetch-ksa-cities.js --place city",
-    "fetch-cities:towns": "node scripts/fetch-ksa-cities.js --place town"
+    "fetch-cities:towns": "node scripts/fetch-ksa-cities.js --place town",
+    "test": "node --test scripts/test-distances.js"
   },
   "engines": {
     "node": ">=18.0.0"
