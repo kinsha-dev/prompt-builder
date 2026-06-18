@@ -1,0 +1,14 @@
+{
+  "name": "prompt-builder",
+  "version": "1.0.0",
+  "description": "Prompt builder templates and utilities",
+  "type": "module",
+  "scripts": {
+    "fetch-cities": "node scripts/fetch-ksa-cities.js",
+    "fetch-cities:cities-only": "node scripts/fetch-ksa-cities.js --place city",
+    "fetch-cities:towns": "node scripts/fetch-ksa-cities.js --place town"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
