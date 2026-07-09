@@ -1,0 +1,3173 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "source": "lutangar/cities.json",
+    "query_date": "2026-07-09T19:50:43.807Z",
+    "place_filter": "all",
+    "country": "Saudi Arabia",
+    "iso3166_1": "SA",
+    "feature_count": 158
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.66694,
+          17.11788
+        ]
+      },
+      "properties": {
+        "name": "Az̧ Z̧abyah",
+        "name_ar": "",
+        "name_en": "Az̧ Z̧abyah",
+        "place": "city",
+        "population": null,
+        "admin_level": "17",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.0618,
+          24.08954
+        ]
+      },
+      "properties": {
+        "name": "Yanbu",
+        "name_ar": "",
+        "name_en": "Yanbu",
+        "place": "city",
+        "population": null,
+        "admin_level": "05",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.20119,
+          25.82916
+        ]
+      },
+      "properties": {
+        "name": "‘Uqlat aş Şuqūr",
+        "name_ar": "",
+        "name_en": "‘Uqlat aş Şuqūr",
+        "place": "city",
+        "population": null,
+        "admin_level": "08",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.96368,
+          26.08793
+        ]
+      },
+      "properties": {
+        "name": "Unaizah",
+        "name_ar": "",
+        "name_en": "Unaizah",
+        "place": "city",
+        "population": null,
+        "admin_level": "08",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.2685,
+          25.02126
+        ]
+      },
+      "properties": {
+        "name": "Umluj",
+        "name_ar": "",
+        "name_en": "Umluj",
+        "place": "city",
+        "population": null,
+        "admin_level": "19",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.91639,
+          26.65361
+        ]
+      },
+      "properties": {
+        "name": "Umm as Sāhik",
+        "name_ar": "",
+        "name_en": "Umm as Sāhik",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.66374,
+          31.67252
+        ]
+      },
+      "properties": {
+        "name": "Turaif",
+        "name_ar": "",
+        "name_en": "Turaif",
+        "place": "city",
+        "population": null,
+        "admin_level": "15",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.663,
+          31.672
+        ]
+      },
+      "properties": {
+        "name": "Ţurayf",
+        "name_ar": "",
+        "name_en": "Ţurayf",
+        "place": "city",
+        "population": null,
+        "admin_level": "15",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.6331,
+          21.21406
+        ]
+      },
+      "properties": {
+        "name": "Turabah",
+        "name_ar": "",
+        "name_en": "Turabah",
+        "place": "city",
+        "population": null,
+        "admin_level": "14",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.99167,
+          26.55778
+        ]
+      },
+      "properties": {
+        "name": "At Tūbī",
+        "name_ar": "",
+        "name_en": "At Tūbī",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.53882,
+          27.62233
+        ]
+      },
+      "properties": {
+        "name": "Taymā’",
+        "name_ar": "",
+        "name_en": "Taymā’",
+        "place": "city",
+        "population": null,
+        "admin_level": "19",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.51972,
+          19.53185
+        ]
+      },
+      "properties": {
+        "name": "Tathlīth",
+        "name_ar": "",
+        "name_en": "Tathlīth",
+        "place": "city",
+        "population": null,
+        "admin_level": "11",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.04028,
+          26.5733
+        ]
+      },
+      "properties": {
+        "name": "Tārūt",
+        "name_ar": "",
+        "name_en": "Tārūt",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.13333,
+          27.1
+        ]
+      },
+      "properties": {
+        "name": "Tanūmah",
+        "name_ar": "",
+        "name_en": "Tanūmah",
+        "place": "city",
+        "population": null,
+        "admin_level": "08",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.57151,
+          28.3998
+        ]
+      },
+      "properties": {
+        "name": "Tabuk",
+        "name_ar": "",
+        "name_en": "Tabuk",
+        "place": "city",
+        "population": null,
+        "admin_level": "19",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.21603,
+          30.49987
+        ]
+      },
+      "properties": {
+        "name": "Ţubarjal",
+        "name_ar": "",
+        "name_en": "Ţubarjal",
+        "place": "city",
+        "population": null,
+        "admin_level": "20",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.4,
+          19.95
+        ]
+      },
+      "properties": {
+        "name": "Tabālah",
+        "name_ar": "",
+        "name_en": "Tabālah",
+        "place": "city",
+        "population": null,
+        "admin_level": "11",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44,
+          26.1
+        ]
+      },
+      "properties": {
+        "name": "Unaizah",
+        "name_ar": "",
+        "name_en": "Unaizah",
+        "place": "city",
+        "population": null,
+        "admin_level": "08",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.58572,
+          24.49258
+        ]
+      },
+      "properties": {
+        "name": "Sulţānah",
+        "name_ar": "",
+        "name_en": "Sulţānah",
+        "place": "city",
+        "population": null,
+        "admin_level": "05",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.82674,
+          17.13109
+        ]
+      },
+      "properties": {
+        "name": "Ash Shuqayrī",
+        "name_ar": "",
+        "name_en": "Ash Shuqayrī",
+        "place": "city",
+        "population": null,
+        "admin_level": "17",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.25104,
+          25.24019
+        ]
+      },
+      "properties": {
+        "name": "Shaqra",
+        "name_ar": "",
+        "name_en": "Shaqra",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.04849,
+          26.48345
+        ]
+      },
+      "properties": {
+        "name": "Sayhāt",
+        "name_ar": "",
+        "name_en": "Sayhāt",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.94435,
+          16.59601
+        ]
+      },
+      "properties": {
+        "name": "Şāmitah",
+        "name_ar": "",
+        "name_en": "Şāmitah",
+        "place": "city",
+        "population": null,
+        "admin_level": "17",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.20641,
+          29.96974
+        ]
+      },
+      "properties": {
+        "name": "Sakakah",
+        "name_ar": "",
+        "name_en": "Sakakah",
+        "place": "city",
+        "population": null,
+        "admin_level": "20",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.95522,
+          26.6497
+        ]
+      },
+      "properties": {
+        "name": "Şafwá",
+        "name_ar": "",
+        "name_en": "Şafwá",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.62537,
+          17.1495
+        ]
+      },
+      "properties": {
+        "name": "Şabyā",
+        "name_ar": "",
+        "name_en": "Şabyā",
+        "place": "city",
+        "population": null,
+        "admin_level": "17",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.16408,
+          25.56395
+        ]
+      },
+      "properties": {
+        "name": "Rumāḩ",
+        "name_ar": "",
+        "name_en": "Rumāḩ",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.06735,
+          26.70742
+        ]
+      },
+      "properties": {
+        "name": "Ras Tanura",
+        "name_ar": "",
+        "name_en": "Ras Tanura",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.06194,
+          26.70791
+        ]
+      },
+      "properties": {
+        "name": "Raḩīmah",
+        "name_ar": "",
+        "name_en": "Raḩīmah",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.03493,
+          22.79856
+        ]
+      },
+      "properties": {
+        "name": "Rābigh",
+        "name_ar": "",
+        "name_en": "Rābigh",
+        "place": "city",
+        "population": null,
+        "admin_level": "14",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3277,
+          27.40285
+        ]
+      },
+      "properties": {
+        "name": "Qibah",
+        "name_ar": "",
+        "name_en": "Qibah",
+        "place": "city",
+        "population": null,
+        "admin_level": "08",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.6052,
+          20.00054
+        ]
+      },
+      "properties": {
+        "name": "Qal‘at Bīshah",
+        "name_ar": "",
+        "name_en": "Qal‘at Bīshah",
+        "place": "city",
+        "population": null,
+        "admin_level": "11",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.12766,
+          17.49326
+        ]
+      },
+      "properties": {
+        "name": "Najrān",
+        "name_ar": "",
+        "name_en": "Najrān",
+        "place": "city",
+        "population": null,
+        "admin_level": "16",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.42419,
+          27.27103
+        ]
+      },
+      "properties": {
+        "name": "Mulayjah",
+        "name_ar": "",
+        "name_en": "Mulayjah",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5572,
+          17.45988
+        ]
+      },
+      "properties": {
+        "name": "Mislīyah",
+        "name_ar": "",
+        "name_en": "Mislīyah",
+        "place": "city",
+        "population": null,
+        "admin_level": "17",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.45775,
+          25.07064
+        ]
+      },
+      "properties": {
+        "name": "Marāt",
+        "name_ar": "",
+        "name_en": "Marāt",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.82563,
+          21.42664
+        ]
+      },
+      "properties": {
+        "name": "Makkah",
+        "name_ar": "",
+        "name_en": "Makkah",
+        "place": "city",
+        "population": null,
+        "admin_level": "14",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.88408,
+          23.49966
+        ]
+      },
+      "properties": {
+        "name": "Mahd adh Dhahab",
+        "name_ar": "",
+        "name_en": "Mahd adh Dhahab",
+        "place": "city",
+        "population": null,
+        "admin_level": "05",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.72376,
+          22.29206
+        ]
+      },
+      "properties": {
+        "name": "Laylá",
+        "name_ar": "",
+        "name_en": "Laylá",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.96667,
+          28.45
+        ]
+      },
+      "properties": {
+        "name": "King Faisal Military City",
+        "name_ar": "",
+        "name_en": "King Faisal Military City",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.32015,
+          22.15553
+        ]
+      },
+      "properties": {
+        "name": "Khulayş",
+        "name_ar": "",
+        "name_en": "Khulayş",
+        "place": "city",
+        "population": null,
+        "admin_level": "14",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.28031,
+          25.71344
+        ]
+      },
+      "properties": {
+        "name": "Khaybar",
+        "name_ar": "",
+        "name_en": "Khaybar",
+        "place": "city",
+        "population": null,
+        "admin_level": "05",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.73333,
+          18.3
+        ]
+      },
+      "properties": {
+        "name": "Khamis Mushait",
+        "name_ar": "",
+        "name_en": "Khamis Mushait",
+        "place": "city",
+        "population": null,
+        "admin_level": "11",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.6,
+          25.5
+        ]
+      },
+      "properties": {
+        "name": "Julayjilah",
+        "name_ar": "",
+        "name_en": "Julayjilah",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.55111,
+          16.88917
+        ]
+      },
+      "properties": {
+        "name": "Jizan",
+        "name_ar": "",
+        "name_en": "Jizan",
+        "place": "city",
+        "population": null,
+        "admin_level": "17",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.18624,
+          21.49012
+        ]
+      },
+      "properties": {
+        "name": "Jeddah",
+        "name_ar": "",
+        "name_en": "Jeddah",
+        "place": "city",
+        "population": null,
+        "admin_level": "14",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.61109,
+          24.68029
+        ]
+      },
+      "properties": {
+        "name": "‘Irqah",
+        "name_ar": "",
+        "name_en": "‘Irqah",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.94687,
+          29.28627
+        ]
+      },
+      "properties": {
+        "name": "Ḩaql",
+        "name_ar": "",
+        "name_en": "Ḩaql",
+        "place": "city",
+        "population": null,
+        "admin_level": "20",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.69073,
+          27.52188
+        ]
+      },
+      "properties": {
+        "name": "Ha'il",
+        "name_ar": "",
+        "name_en": "Ha'il",
+        "place": "city",
+        "population": null,
+        "admin_level": "13",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.97077,
+          28.43279
+        ]
+      },
+      "properties": {
+        "name": "Hafar Al-Batin",
+        "name_ar": "",
+        "name_en": "Hafar Al-Batin",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.13735,
+          17.2806
+        ]
+      },
+      "properties": {
+        "name": "Fayfā’",
+        "name_ar": "",
+        "name_en": "Fayfā’",
+        "place": "city",
+        "population": null,
+        "admin_level": "17",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.11833,
+          16.70222
+        ]
+      },
+      "properties": {
+        "name": "Farasān",
+        "name_ar": "",
+        "name_en": "Farasān",
+        "place": "city",
+        "population": null,
+        "admin_level": "17",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.62268,
+          25.35621
+        ]
+      },
+      "properties": {
+        "name": "Dukhnah",
+        "name_ar": "",
+        "name_en": "Dukhnah",
+        "place": "city",
+        "population": null,
+        "admin_level": "08",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.69014,
+          27.35134
+        ]
+      },
+      "properties": {
+        "name": "Duba",
+        "name_ar": "",
+        "name_en": "Duba",
+        "place": "city",
+        "population": null,
+        "admin_level": "19",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.78155,
+          17.10426
+        ]
+      },
+      "properties": {
+        "name": "Ḑamad",
+        "name_ar": "",
+        "name_en": "Ḑamad",
+        "place": "city",
+        "population": null,
+        "admin_level": "17",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.97497,
+          26.32599
+        ]
+      },
+      "properties": {
+        "name": "Buraydah",
+        "name_ar": "",
+        "name_en": "Buraydah",
+        "place": "city",
+        "population": null,
+        "admin_level": "08",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.6688,
+          25.93402
+        ]
+      },
+      "properties": {
+        "name": "Abqaiq",
+        "name_ar": "",
+        "name_en": "Abqaiq",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.38898,
+          27.90647
+        ]
+      },
+      "properties": {
+        "name": "Baq‘ā’",
+        "name_ar": "",
+        "name_en": "Baq‘ā’",
+        "place": "city",
+        "population": null,
+        "admin_level": "13",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.55722,
+          19.85944
+        ]
+      },
+      "properties": {
+        "name": "Baljurashi",
+        "name_ar": "",
+        "name_en": "Baljurashi",
+        "place": "city",
+        "population": null,
+        "admin_level": "02",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.79047,
+          23.78292
+        ]
+      },
+      "properties": {
+        "name": "Badr Ḩunayn",
+        "name_ar": "",
+        "name_en": "Badr Ḩunayn",
+        "place": "city",
+        "population": null,
+        "admin_level": "05",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.71407,
+          17.88528
+        ]
+      },
+      "properties": {
+        "name": "Badr al-Janūb",
+        "name_ar": "",
+        "name_en": "Badr al-Janūb",
+        "place": "city",
+        "population": null,
+        "admin_level": "00",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81542,
+          26.29945
+        ]
+      },
+      "properties": {
+        "name": "Az Zulfī",
+        "name_ar": "",
+        "name_en": "Az Zulfī",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.11396,
+          26.28864
+        ]
+      },
+      "properties": {
+        "name": "Dhahran",
+        "name_ar": "",
+        "name_en": "Dhahran",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.2071,
+          26.77157
+        ]
+      },
+      "properties": {
+        "name": "Ayn Ibn Fuhayd",
+        "name_ar": "",
+        "name_en": "Ayn Ibn Fuhayd",
+        "place": "city",
+        "population": null,
+        "admin_level": "08",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.72757,
+          25.36232
+        ]
+      },
+      "properties": {
+        "name": "Aţ Ţaraf",
+        "name_ar": "",
+        "name_en": "Aţ Ţaraf",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.41583,
+          21.27028
+        ]
+      },
+      "properties": {
+        "name": "Ta’if",
+        "name_ar": "",
+        "name_en": "Ta’if",
+        "place": "city",
+        "population": null,
+        "admin_level": "14",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.20486,
+          26.26022
+        ]
+      },
+      "properties": {
+        "name": "Thuqbah",
+        "name_ar": "",
+        "name_en": "Thuqbah",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.57792,
+          20.46067
+        ]
+      },
+      "properties": {
+        "name": "As Sulayyil",
+        "name_ar": "",
+        "name_en": "As Sulayyil",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.59964,
+          25.18251
+        ]
+      },
+      "properties": {
+        "name": "Sājir",
+        "name_ar": "",
+        "name_en": "Sājir",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.73,
+          27.97083
+        ]
+      },
+      "properties": {
+        "name": "As Saffānīyah",
+        "name_ar": "",
+        "name_en": "As Saffānīyah",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.0255,
+          17.7219
+        ]
+      },
+      "properties": {
+        "name": "Ash-Shaqīq",
+        "name_ar": "",
+        "name_en": "Ash-Shaqīq",
+        "place": "city",
+        "population": null,
+        "admin_level": "17",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.72185,
+          24.68773
+        ]
+      },
+      "properties": {
+        "name": "Riyadh",
+        "name_ar": "",
+        "name_en": "Riyadh",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.51524,
+          23.54267
+        ]
+      },
+      "properties": {
+        "name": "Ar Rayn",
+        "name_ar": "",
+        "name_en": "Ar Rayn",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.4973,
+          25.86944
+        ]
+      },
+      "properties": {
+        "name": "Ar Rass",
+        "name_ar": "",
+        "name_en": "Ar Rass",
+        "place": "city",
+        "population": null,
+        "admin_level": "08",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.03808,
+          30.97531
+        ]
+      },
+      "properties": {
+        "name": "Arar",
+        "name_ar": "",
+        "name_en": "Arar",
+        "place": "city",
+        "population": null,
+        "admin_level": "15",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.12009,
+          19.14547
+        ]
+      },
+      "properties": {
+        "name": "An Nimas",
+        "name_ar": "",
+        "name_en": "An Nimas",
+        "place": "city",
+        "population": null,
+        "admin_level": "11",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.34282,
+          31.33176
+        ]
+      },
+      "properties": {
+        "name": "Qurayyat",
+        "name_ar": "",
+        "name_en": "Qurayyat",
+        "place": "city",
+        "population": null,
+        "admin_level": "20",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.02715,
+          26.51959
+        ]
+      },
+      "properties": {
+        "name": "‘Inak",
+        "name_ar": "",
+        "name_en": "‘Inak",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.08902,
+          17.05838
+        ]
+      },
+      "properties": {
+        "name": "Al Wadī‘ah",
+        "name_ar": "",
+        "name_en": "Al Wadī‘ah",
+        "place": "city",
+        "population": null,
+        "admin_level": "16",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.46492,
+          26.23094
+        ]
+      },
+      "properties": {
+        "name": "Al Wajh",
+        "name_ar": "",
+        "name_en": "Al Wajh",
+        "place": "city",
+        "population": null,
+        "admin_level": "19",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.6312,
+          26.49829
+        ]
+      },
+      "properties": {
+        "name": "‘Uyūn al Jiwā’",
+        "name_ar": "",
+        "name_en": "‘Uyūn al Jiwā’",
+        "place": "city",
+        "population": null,
+        "admin_level": "08",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.3846,
+          24.9074
+        ]
+      },
+      "properties": {
+        "name": "Al ‘Uyaynah",
+        "name_ar": "",
+        "name_en": "Al ‘Uyaynah",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.92316,
+          26.60853
+        ]
+      },
+      "properties": {
+        "name": "Al-`Ula",
+        "name_ar": "",
+        "name_en": "Al-`Ula",
+        "place": "city",
+        "population": null,
+        "admin_level": "05",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.2996,
+          25.14081
+        ]
+      },
+      "properties": {
+        "name": "Udhailiyah",
+        "name_ar": "",
+        "name_en": "Udhailiyah",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.6,
+          25.48333
+        ]
+      },
+      "properties": {
+        "name": "Al Qurayn",
+        "name_ar": "",
+        "name_en": "Al Qurayn",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.12729,
+          28.31117
+        ]
+      },
+      "properties": {
+        "name": "Qaisumah",
+        "name_ar": "",
+        "name_en": "Qaisumah",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.0089,
+          26.56542
+        ]
+      },
+      "properties": {
+        "name": "Al Qaţīf",
+        "name_ar": "",
+        "name_en": "Al Qaţīf",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.66667,
+          25.41667
+        ]
+      },
+      "properties": {
+        "name": "Al Qārah",
+        "name_ar": "",
+        "name_en": "Al Qārah",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.55824,
+          25.47878
+        ]
+      },
+      "properties": {
+        "name": "Al Muţayrifī",
+        "name_ar": "",
+        "name_en": "Al Muţayrifī",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.66667,
+          25.38333
+        ]
+      },
+      "properties": {
+        "name": "Al Munayzilah",
+        "name_ar": "",
+        "name_en": "Al Munayzilah",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.59028,
+          25.40768
+        ]
+      },
+      "properties": {
+        "name": "Al Mubarraz",
+        "name_ar": "",
+        "name_en": "Al Mubarraz",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.28337,
+          20.1588
+        ]
+      },
+      "properties": {
+        "name": "Al Mindak",
+        "name_ar": "",
+        "name_en": "Al Mindak",
+        "place": "city",
+        "population": null,
+        "admin_level": "02",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.22228,
+          25.86012
+        ]
+      },
+      "properties": {
+        "name": "Al Mithnab",
+        "name_ar": "",
+        "name_en": "Al Mithnab",
+        "place": "city",
+        "population": null,
+        "admin_level": "08",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.73333,
+          25.4
+        ]
+      },
+      "properties": {
+        "name": "Al Markaz",
+        "name_ar": "",
+        "name_en": "Al Markaz",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.35665,
+          25.91097
+        ]
+      },
+      "properties": {
+        "name": "Al Majma‘ah",
+        "name_ar": "",
+        "name_en": "Al Majma‘ah",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.61417,
+          24.46861
+        ]
+      },
+      "properties": {
+        "name": "Madinah",
+        "name_ar": "",
+        "name_en": "Madinah",
+        "place": "city",
+        "population": null,
+        "admin_level": "05",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.27224,
+          20.14804
+        ]
+      },
+      "properties": {
+        "name": "Al Līth",
+        "name_ar": "",
+        "name_en": "Al Līth",
+        "place": "city",
+        "population": null,
+        "admin_level": "14",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.03092,
+          21.91149
+        ]
+      },
+      "properties": {
+        "name": "Al Khurmah",
+        "name_ar": "",
+        "name_en": "Al Khurmah",
+        "place": "city",
+        "population": null,
+        "admin_level": "14",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.20833,
+          26.27944
+        ]
+      },
+      "properties": {
+        "name": "Khobar",
+        "name_ar": "",
+        "name_en": "Khobar",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.33457,
+          24.15541
+        ]
+      },
+      "properties": {
+        "name": "Al Kharj",
+        "name_ar": "",
+        "name_en": "Al Kharj",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.49132,
+          28.43905
+        ]
+      },
+      "properties": {
+        "name": "Al Khafjī",
+        "name_ar": "",
+        "name_en": "Al Khafjī",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.62497,
+          26.07179
+        ]
+      },
+      "properties": {
+        "name": "Al Khabrā’",
+        "name_ar": "",
+        "name_en": "Al Khabrā’",
+        "place": "city",
+        "population": null,
+        "admin_level": "08",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.69659,
+          21.61951
+        ]
+      },
+      "properties": {
+        "name": "Al Jumūm",
+        "name_ar": "",
+        "name_en": "Al Jumūm",
+        "place": "city",
+        "population": null,
+        "admin_level": "14",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.4465,
+          24.91116
+        ]
+      },
+      "properties": {
+        "name": "Al Jubaylah",
+        "name_ar": "",
+        "name_en": "Al Jubaylah",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.62251,
+          27.0174
+        ]
+      },
+      "properties": {
+        "name": "Al Jubayl",
+        "name_ar": "",
+        "name_en": "Al Jubayl",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.65,
+          25.4
+        ]
+      },
+      "properties": {
+        "name": "Al Jubayl",
+        "name_ar": "",
+        "name_en": "Al Jubayl",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.9124,
+          16.57946
+        ]
+      },
+      "properties": {
+        "name": "Al Jarādīyah",
+        "name_ar": "",
+        "name_en": "Al Jarādīyah",
+        "place": "city",
+        "population": null,
+        "admin_level": "17",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.72154,
+          25.37736
+        ]
+      },
+      "properties": {
+        "name": "Al Jafr",
+        "name_ar": "",
+        "name_en": "Al Jafr",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.7877,
+          23.43902
+        ]
+      },
+      "properties": {
+        "name": "Al Ḩulwah",
+        "name_ar": "",
+        "name_en": "Al Ḩulwah",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.58764,
+          25.36467
+        ]
+      },
+      "properties": {
+        "name": "Al Hufūf",
+        "name_ar": "",
+        "name_en": "Al Hufūf",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.23764,
+          24.16555
+        ]
+      },
+      "properties": {
+        "name": "Al Hayāthim",
+        "name_ar": "",
+        "name_en": "Al Hayāthim",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.65782,
+          26.13915
+        ]
+      },
+      "properties": {
+        "name": "Al Bukayrīyah",
+        "name_ar": "",
+        "name_en": "Al Bukayrīyah",
+        "place": "city",
+        "population": null,
+        "admin_level": "08",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.63333,
+          25.43333
+        ]
+      },
+      "properties": {
+        "name": "Al Baţţālīyah",
+        "name_ar": "",
+        "name_en": "Al Baţţālīyah",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.46767,
+          20.01288
+        ]
+      },
+      "properties": {
+        "name": "Al Bahah",
+        "name_ar": "",
+        "name_en": "Al Bahah",
+        "place": "city",
+        "population": null,
+        "admin_level": "02",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.97951,
+          26.59144
+        ]
+      },
+      "properties": {
+        "name": "Al ‘Awwāmīyah",
+        "name_ar": "",
+        "name_en": "Al ‘Awwāmīyah",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.34813,
+          26.50387
+        ]
+      },
+      "properties": {
+        "name": "Al Arţāwīyah",
+        "name_ar": "",
+        "name_en": "Al Arţāwīyah",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.41667,
+          20.65
+        ]
+      },
+      "properties": {
+        "name": "Al ‘Aqīq",
+        "name_ar": "",
+        "name_en": "Al ‘Aqīq",
+        "place": "city",
+        "population": null,
+        "admin_level": "02",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.66434,
+          20.27358
+        ]
+      },
+      "properties": {
+        "name": "Al ‘Aqīq",
+        "name_ar": "",
+        "name_en": "Al ‘Aqīq",
+        "place": "city",
+        "population": null,
+        "admin_level": "02",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.94331,
+          26.56324
+        ]
+      },
+      "properties": {
+        "name": "Al Awjām",
+        "name_ar": "",
+        "name_en": "Al Awjām",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.91724,
+          23.9065
+        ]
+      },
+      "properties": {
+        "name": "Afif",
+        "name_ar": "",
+        "name_en": "Afif",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.157,
+          26.027
+        ]
+      },
+      "properties": {
+        "name": "Adh Dhibiyah",
+        "name_ar": "",
+        "name_en": "Adh Dhibiyah",
+        "place": "city",
+        "population": null,
+        "admin_level": "08",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.53874,
+          24.75187
+        ]
+      },
+      "properties": {
+        "name": "Ad Dir‘īyah",
+        "name_ar": "",
+        "name_en": "Ad Dir‘īyah",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.16181,
+          23.99104
+        ]
+      },
+      "properties": {
+        "name": "Ad Dilam",
+        "name_ar": "",
+        "name_en": "Ad Dilam",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.39237,
+          24.50772
+        ]
+      },
+      "properties": {
+        "name": "Ad Dawādimī",
+        "name_ar": "",
+        "name_en": "Ad Dawādimī",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.25261,
+          17.72285
+        ]
+      },
+      "properties": {
+        "name": "Ad Darb",
+        "name_ar": "",
+        "name_en": "Ad Darb",
+        "place": "city",
+        "population": null,
+        "admin_level": "17",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.10326,
+          26.43442
+        ]
+      },
+      "properties": {
+        "name": "Dammam",
+        "name_ar": "",
+        "name_en": "Dammam",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.83251,
+          16.96887
+        ]
+      },
+      "properties": {
+        "name": "Abū ‘Arīsh",
+        "name_ar": "",
+        "name_en": "Abū ‘Arīsh",
+        "place": "city",
+        "population": null,
+        "admin_level": "17",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.50528,
+          18.21639
+        ]
+      },
+      "properties": {
+        "name": "Abha",
+        "name_ar": "",
+        "name_en": "Abha",
+        "place": "city",
+        "population": null,
+        "admin_level": "11",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.38925,
+          30.11713
+        ]
+      },
+      "properties": {
+        "name": "Şuwayr",
+        "name_ar": "",
+        "name_en": "Şuwayr",
+        "place": "city",
+        "population": null,
+        "admin_level": "20",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.92457,
+          28.25849
+        ]
+      },
+      "properties": {
+        "name": "Turubah",
+        "name_ar": "",
+        "name_en": "Turubah",
+        "place": "city",
+        "population": null,
+        "admin_level": "13",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.8343,
+          25.4267
+        ]
+      },
+      "properties": {
+        "name": "Wed Alnkil",
+        "name_ar": "",
+        "name_en": "Wed Alnkil",
+        "place": "city",
+        "population": null,
+        "admin_level": "08",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.86835,
+          25.70347
+        ]
+      },
+      "properties": {
+        "name": "Tumayr",
+        "name_ar": "",
+        "name_en": "Tumayr",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.25164,
+          26.4436
+        ]
+      },
+      "properties": {
+        "name": "Al Fuwayliq",
+        "name_ar": "",
+        "name_en": "Al Fuwayliq",
+        "place": "city",
+        "population": null,
+        "admin_level": "08",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.73659,
+          25.98546
+        ]
+      },
+      "properties": {
+        "name": "Al Badā’i‘ al Wusţá",
+        "name_ar": "",
+        "name_en": "Al Badā’i‘ al Wusţá",
+        "place": "city",
+        "population": null,
+        "admin_level": "08",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.924,
+          19.132
+        ]
+      },
+      "properties": {
+        "name": "Al Majāridah",
+        "name_ar": "",
+        "name_en": "Al Majāridah",
+        "place": "city",
+        "population": null,
+        "admin_level": "11",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.20306,
+          18.52917
+        ]
+      },
+      "properties": {
+        "name": "Yadamah",
+        "name_ar": "",
+        "name_en": "Yadamah",
+        "place": "city",
+        "population": null,
+        "admin_level": "16",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.77389,
+          24.75806
+        ]
+      },
+      "properties": {
+        "name": "Ain AlBaraha",
+        "name_ar": "",
+        "name_en": "Ain AlBaraha",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.11245,
+          22.28272
+        ]
+      },
+      "properties": {
+        "name": "Thuwal",
+        "name_ar": "",
+        "name_en": "Thuwal",
+        "place": "city",
+        "population": null,
+        "admin_level": "14",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.75829,
+          22.43333
+        ]
+      },
+      "properties": {
+        "name": "Al Muwayh",
+        "name_ar": "",
+        "name_en": "Al Muwayh",
+        "place": "city",
+        "population": null,
+        "admin_level": "14",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.2803,
+          21.35903
+        ]
+      },
+      "properties": {
+        "name": "Al Hadā",
+        "name_ar": "",
+        "name_en": "Al Hadā",
+        "place": "city",
+        "population": null,
+        "admin_level": "14",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.31842,
+          21.07268
+        ]
+      },
+      "properties": {
+        "name": "Ash Shafā",
+        "name_ar": "",
+        "name_en": "Ash Shafā",
+        "place": "city",
+        "population": null,
+        "admin_level": "14",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.73333,
+          16.82611
+        ]
+      },
+      "properties": {
+        "name": "Mizhirah",
+        "name_ar": "",
+        "name_en": "Mizhirah",
+        "place": "city",
+        "population": null,
+        "admin_level": "17",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.26871,
+          24.49023
+        ]
+      },
+      "properties": {
+        "name": "shokhaibٍ",
+        "name_ar": "",
+        "name_en": "shokhaibٍ",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.55326,
+          27.90509
+        ]
+      },
+      "properties": {
+        "name": "King Khalid Military City",
+        "name_ar": "",
+        "name_en": "King Khalid Military City",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.12455,
+          22.44633
+        ]
+      },
+      "properties": {
+        "name": "King Abdullah City",
+        "name_ar": "",
+        "name_en": "King Abdullah City",
+        "place": "city",
+        "population": null,
+        "admin_level": "14",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.96357,
+          19.5773
+        ]
+      },
+      "properties": {
+        "name": "Sabt Alalayah",
+        "name_ar": "",
+        "name_en": "Sabt Alalayah",
+        "place": "city",
+        "population": null,
+        "admin_level": "11",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.78527,
+          26.31781
+        ]
+      },
+      "properties": {
+        "name": "Al Mulaydā’",
+        "name_ar": "",
+        "name_en": "Al Mulaydā’",
+        "place": "city",
+        "population": null,
+        "admin_level": "08",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.55344,
+          26.06672
+        ]
+      },
+      "properties": {
+        "name": "Riyāḑ al Khabrā’",
+        "name_ar": "",
+        "name_en": "Riyāḑ al Khabrā’",
+        "place": "city",
+        "population": null,
+        "admin_level": "08",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.92953,
+          18.92966
+        ]
+      },
+      "properties": {
+        "name": "Bariq",
+        "name_ar": "",
+        "name_en": "Bariq",
+        "place": "city",
+        "population": null,
+        "admin_level": "11",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.90469,
+          26.75007
+        ]
+      },
+      "properties": {
+        "name": "Al Ju‘aymah",
+        "name_ar": "",
+        "name_en": "Al Ju‘aymah",
+        "place": "city",
+        "population": null,
+        "admin_level": "06",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.132,
+          18.089
+        ]
+      },
+      "properties": {
+        "name": "Sarāt ‘Abīdah",
+        "name_ar": "",
+        "name_en": "Sarāt ‘Abīdah",
+        "place": "city",
+        "population": null,
+        "admin_level": "11",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.468,
+          17.75558
+        ]
+      },
+      "properties": {
+        "name": "Al Mash‘ilīyah",
+        "name_ar": "",
+        "name_en": "Al Mash‘ilīyah",
+        "place": "city",
+        "population": null,
+        "admin_level": "16",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.02081,
+          17.84722
+        ]
+      },
+      "properties": {
+        "name": "Ḩabūnā",
+        "name_ar": "",
+        "name_en": "Ḩabūnā",
+        "place": "city",
+        "population": null,
+        "admin_level": "16",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.84751,
+          21.2504
+        ]
+      },
+      "properties": {
+        "name": "Ranyah",
+        "name_ar": "",
+        "name_en": "Ranyah",
+        "place": "city",
+        "population": null,
+        "admin_level": "11",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.32947,
+          26.8577
+        ]
+      },
+      "properties": {
+        "name": "Ash Shamli",
+        "name_ar": "",
+        "name_en": "Ash Shamli",
+        "place": "city",
+        "population": null,
+        "admin_level": "13",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.87801,
+          23.49598
+        ]
+      },
+      "properties": {
+        "name": "Ḥawṭah Banī Tamīm",
+        "name_ar": "",
+        "name_en": "Ḥawṭah Banī Tamīm",
+        "place": "city",
+        "population": null,
+        "admin_level": "10",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.748,
+          17.55627
+        ]
+      },
+      "properties": {
+        "name": "Khubāsh",
+        "name_ar": "",
+        "name_en": "Khubāsh",
+        "place": "city",
+        "population": null,
+        "admin_level": "16",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.61605,
+          18.09976
+        ]
+      },
+      "properties": {
+        "name": "Dhahabān",
+        "name_ar": "",
+        "name_en": "Dhahabān",
+        "place": "city",
+        "population": null,
+        "admin_level": "17",
+        "wikidata": null,
+        "source": "lutangar/cities.json"
+      }
+    }
+  ]
+}
