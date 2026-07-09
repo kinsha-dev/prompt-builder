@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 /**
- * Fetches GeoJSON for all cities, towns, and villages in Saudi Arabia
- * using the OpenStreetMap Overpass API.
+ * Fetches GeoJSON for all cities in Saudi Arabia.
+ *
+ * Primary source  : OpenStreetMap Overpass API (overpass-api.de)
+ * Fallback source : lutangar/cities.json on GitHub raw (raw.githubusercontent.com)
  *
  * Outputs: ksa-cities.geojson in the project root
  * Requires: Node.js 18+ (uses built-in fetch)
@@ -10,6 +12,8 @@
  *   node scripts/fetch-ksa-cities.js
  *   node scripts/fetch-ksa-cities.js --place city
  *   node scripts/fetch-ksa-cities.js --out ./output/cities.geojson
+ *   node scripts/fetch-ksa-cities.js --source github     # force GitHub fallback
+ *   node scripts/fetch-ksa-cities.js --source overpass   # force Overpass only
  */
 
 import fs from 'fs';
@@ -19,28 +23,31 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = path.resolve(__dirname, '..');
 
+// ── Sources ─────────────────────────────────────────────────────────────────
+
 const OVERPASS_URL = 'https://overpass-api.de/api/interpreter';
 
-// Parse CLI flags
-const args = process.argv.slice(2);
-const flagIndex = (flag) => args.indexOf(flag);
-const flagValue = (flag) => {
-  const i = flagIndex(flag);
-  return i !== -1 ? args[i + 1] : null;
-};
+// lutangar/cities.json — world city list with lat/lng/country fields
+const GITHUB_CITIES_URL =
+  'https://raw.githubusercontent.com/lutangar/cities.json/master/cities.json';
 
-// --place city|town|village|all  (default: all)
-const placeArg = flagValue('--place') ?? 'all';
-// --out <path>  (default: <root>/ksa-cities.geojson)
-const outArg = flagValue('--out') ?? path.join(PROJECT_ROOT, 'ksa-cities.geojson');
+// ── CLI flags ────────────────────────────────────────────────────────────────
+
+const args      = process.argv.slice(2);
+const flagValue = (flag) => { const i = args.indexOf(flag); return i !== -1 ? args[i + 1] : null; };
+
+const placeArg  = flagValue('--place')  ?? 'all';   // city|town|village|all
+const outArg    = flagValue('--out')    ?? path.join(PROJECT_ROOT, 'ksa-cities.geojson');
+const sourceArg = flagValue('--source') ?? 'auto';   // auto|overpass|github
+
+// ── Overpass ─────────────────────────────────────────────────────────────────
 
 const PLACE_FILTER =
   placeArg === 'all'
     ? '~"^(city|town|village|municipality|borough)$"'
     : `"${placeArg}"`;
 
-// Overpass QL query — targets the ISO 3166-1 area for Saudi Arabia
-const buildQuery = () => `
+const OVERPASS_QUERY = `
 [out:json][timeout:120];
 area["ISO3166-1"="SA"]->.sa;
 (
@@ -51,124 +58,136 @@ area["ISO3166-1"="SA"]->.sa;
 out center tags;
 `.trim();
 
-/** POST query to Overpass and return parsed JSON. */
-async function queryOverpass(query, attempt = 1) {
-  const MAX_ATTEMPTS = 4;
-  const BACKOFF_MS = [0, 2000, 4000, 8000];
-
-  if (attempt > 1) {
-    const wait = BACKOFF_MS[attempt - 1] ?? 16000;
-    console.log(`Retry ${attempt}/${MAX_ATTEMPTS} — waiting ${wait / 1000}s...`);
-    await new Promise((r) => setTimeout(r, wait));
+async function fetchWithRetry(url, opts, maxAttempts = 4) {
+  const BACKOFF = [0, 2000, 4000, 8000];
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    if (attempt > 1) {
+      const wait = BACKOFF[attempt - 1] ?? 16000;
+      console.log(`  Retry ${attempt}/${maxAttempts} — waiting ${wait / 1000}s…`);
+      await new Promise((r) => setTimeout(r, wait));
+    }
+    const res = await fetch(url, opts);
+    if (res.ok) return res;
+    const body = await res.text().catch(() => '');
+    if (attempt === maxAttempts) throw new Error(`HTTP ${res.status}: ${body.slice(0, 200)}`);
+    console.warn(`  HTTP ${res.status}: ${body.slice(0, 100)}`);
   }
+}
 
-  const res = await fetch(OVERPASS_URL, {
+async function fetchFromOverpass() {
+  console.log('Source: Overpass API (OpenStreetMap)');
+  const res = await fetchWithRetry(OVERPASS_URL, {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: `data=${encodeURIComponent(query)}`,
+    body: `data=${encodeURIComponent(OVERPASS_QUERY)}`,
   });
+  const data = await res.json();
+  if (!Array.isArray(data.elements)) throw new Error('Unexpected Overpass response shape');
 
-  if (!res.ok) {
-    const text = await res.text().catch(() => '');
-    if (attempt < MAX_ATTEMPTS) {
-      console.warn(`HTTP ${res.status}: ${text.slice(0, 120)}`);
-      return queryOverpass(query, attempt + 1);
-    }
-    throw new Error(`Overpass API error ${res.status}: ${text.slice(0, 200)}`);
-  }
-
-  return res.json();
+  return data.elements
+    .map((el) => {
+      let lon, lat;
+      if (el.type === 'node')      { lon = el.lon;        lat = el.lat;        }
+      else if (el.center)          { lon = el.center.lon; lat = el.center.lat; }
+      else return null;
+      const t = el.tags ?? {};
+      return {
+        type: 'Feature',
+        geometry: { type: 'Point', coordinates: [lon, lat] },
+        properties: {
+          osm_id:      el.id,
+          osm_type:    el.type,
+          name:        t.name        ?? '',
+          name_ar:     t['name:ar'] ?? '',
+          name_en:     t['name:en'] ?? '',
+          place:       t.place       ?? '',
+          population:  t.population != null ? Number(t.population) || t.population : null,
+          admin_level: t.admin_level ?? null,
+          wikidata:    t.wikidata    ?? null,
+          source:      'openstreetmap',
+        },
+      };
+    })
+    .filter(Boolean);
 }
 
-/** Convert a single OSM element to a GeoJSON Feature (Point). */
-function toFeature(el) {
-  let lon, lat;
-  if (el.type === 'node') {
-    lon = el.lon;
-    lat = el.lat;
-  } else if (el.center) {
-    lon = el.center.lon;
-    lat = el.center.lat;
-  } else {
-    return null; // way/relation without center — skip
-  }
+// ── GitHub fallback ──────────────────────────────────────────────────────────
 
-  const tags = el.tags ?? {};
+async function fetchFromGitHub() {
+  console.log('Source: lutangar/cities.json via raw.githubusercontent.com');
+  const res = await fetchWithRetry(GITHUB_CITIES_URL, {});
+  const all  = await res.json();
+  const sa   = all.filter((c) => c.country === 'SA');
+  console.log(`  Found ${sa.length} SA cities in dataset`);
 
-  return {
+  return sa.map((c) => ({
     type: 'Feature',
-    geometry: {
-      type: 'Point',
-      coordinates: [lon, lat],
-    },
+    geometry: { type: 'Point', coordinates: [parseFloat(c.lng), parseFloat(c.lat)] },
     properties: {
-      osm_id: el.id,
-      osm_type: el.type,
-      name: tags.name ?? '',
-      name_ar: tags['name:ar'] ?? '',
-      name_en: tags['name:en'] ?? '',
-      place: tags.place ?? '',
-      population: tags.population != null ? Number(tags.population) || tags.population : null,
-      admin_level: tags.admin_level ?? null,
-      wikipedia: tags.wikipedia ?? null,
-      wikidata: tags.wikidata ?? null,
+      name:    c.name,
+      name_ar: '',
+      name_en: c.name,
+      place:   'city',
+      population:  null,
+      admin_level: c.admin1 || null,
+      wikidata:    null,
+      source:      'lutangar/cities.json',
     },
-  };
+  }));
 }
 
-/** Main entry point. */
+// ── Main ─────────────────────────────────────────────────────────────────────
+
 async function main() {
-  const query = buildQuery();
   const outputPath = path.resolve(outArg);
+  console.log(`\nFetching KSA cities (place: ${placeArg}) → ${outputPath}\n`);
 
-  console.log(`Querying Overpass API for KSA cities (place: ${placeArg})...`);
-  console.log(`Output → ${outputPath}\n`);
+  let features;
 
-  const data = await queryOverpass(query);
-
-  if (!Array.isArray(data.elements)) {
-    throw new Error('Unexpected response shape — missing elements array');
+  if (sourceArg === 'github') {
+    features = await fetchFromGitHub();
+  } else {
+    try {
+      features = await fetchFromOverpass();
+    } catch (err) {
+      if (sourceArg === 'overpass') throw err;
+      console.warn(`\nOverpass unavailable (${err.message.slice(0, 80)})`);
+      console.warn('Falling back to GitHub dataset…\n');
+      features = await fetchFromGitHub();
+    }
   }
-
-  console.log(`Received ${data.elements.length} OSM elements.`);
-
-  const features = data.elements.map(toFeature).filter(Boolean);
 
   const geojson = {
     type: 'FeatureCollection',
     metadata: {
-      source: 'OpenStreetMap via Overpass API',
-      query_date: new Date().toISOString(),
-      place_filter: placeArg,
-      country: 'Saudi Arabia',
-      iso3166_1: 'SA',
+      source:        features[0]?.properties?.source ?? 'unknown',
+      query_date:    new Date().toISOString(),
+      place_filter:  placeArg,
+      country:       'Saudi Arabia',
+      iso3166_1:     'SA',
       feature_count: features.length,
     },
     features,
   };
 
   const outputDir = path.dirname(outputPath);
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
-  }
-
+  if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
   fs.writeFileSync(outputPath, JSON.stringify(geojson, null, 2), 'utf8');
 
   console.log(`\nSaved ${features.length} features to ${outputPath}`);
 
-  // Summary by place type
+  // Breakdown by place type
   const counts = features.reduce((acc, f) => {
     const p = f.properties.place || 'unknown';
     acc[p] = (acc[p] ?? 0) + 1;
     return acc;
   }, {});
-  console.log('\nBreakdown by place type:');
-  Object.entries(counts)
-    .sort((a, b) => b[1] - a[1])
-    .forEach(([type, count]) => console.log(`  ${type}: ${count}`));
+  if (Object.keys(counts).length > 1) {
+    console.log('\nBreakdown by place type:');
+    Object.entries(counts)
+      .sort((a, b) => b[1] - a[1])
+      .forEach(([type, count]) => console.log(`  ${type}: ${count}`));
+  }
 }
 
-main().catch((err) => {
-  console.error('Error:', err.message);
-  process.exit(1);
-});
+main().catch((err) => { console.error('Error:', err.message); process.exit(1); });
