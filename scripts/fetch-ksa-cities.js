@@ -42,18 +42,19 @@ const sourceArg = flagValue('--source') ?? 'auto';   // auto|overpass|github
 
 // ── Overpass ─────────────────────────────────────────────────────────────────
 
+// Regex without anchors — anchored patterns (^...$) trigger 406 on some Overpass instances
 const PLACE_FILTER =
   placeArg === 'all'
-    ? '~"^(city|town|village|municipality|borough)$"'
+    ? '~"city|town|village|municipality"'
     : `"${placeArg}"`;
 
+// admin_level=2 pins the area to the country boundary (avoids 406 from ambiguous area lookup)
 const OVERPASS_QUERY = `
-[out:json][timeout:120];
-area["ISO3166-1"="SA"]->.sa;
+[out:json][timeout:180][maxsize:536870912];
+area["ISO3166-1"="SA"]["admin_level"="2"]->.sa;
 (
   node["place"${PLACE_FILTER}](area.sa);
   way["place"${PLACE_FILTER}](area.sa);
-  relation["place"${PLACE_FILTER}](area.sa);
 );
 out center tags;
 `.trim();
@@ -69,8 +70,10 @@ async function fetchWithRetry(url, opts, maxAttempts = 4) {
     const res = await fetch(url, opts);
     if (res.ok) return res;
     const body = await res.text().catch(() => '');
-    if (attempt === maxAttempts) throw new Error(`HTTP ${res.status}: ${body.slice(0, 200)}`);
-    console.warn(`  HTTP ${res.status}: ${body.slice(0, 100)}`);
+    // Strip HTML tags for readable error output
+    const plain = body.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 300);
+    if (attempt === maxAttempts) throw new Error(`HTTP ${res.status}: ${plain}`);
+    console.warn(`  HTTP ${res.status}: ${plain.slice(0, 120)}`);
   }
 }
 
